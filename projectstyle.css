@@ -1,0 +1,136 @@
+
+#tabs{
+   width: 900px; 
+   margin:0 auto;
+   border: none;
+}
+
+/* changes the color of the little tab parts themselves*/
+
+#tabs .ui-tabs-nav li a{
+    color: #ffffff;
+    height: 20px;
+    background-color: #772F1A;
+}
+
+/* idk, */
+#tabs .ui-tabs-panel li a{
+    background-color: #F2A65A;
+}
+
+/* changes the background of the div under the tabby things */
+#tabs-1 {
+    background-color: #EEC170;
+}
+
+#tabs-2{
+    background-color: #EEC170;
+}
+
+#tabs-3{
+    background-color: #EEC170;
+}
+
+#tabs-4{
+    background-color: #EEC170;
+}
+
+#img1{
+    float: left;
+    padding: 10px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+ul{
+    font-size:15px;
+    font-family: monospace;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 900px; 
+    background-color: #585123; 
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+label {
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.circle-controls fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circle-controls label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.slider-container{
+    margin-top: 50px;
+}
+
+#datepicker{
+    margin-top: 50px;
+}
+
+@media (max-width: 1000px){
+    #tabs{
+        height: 50px;
+        width:600px; 
+        margin:0 auto;
+        border: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 150px;
+        width: 600px; 
+        background-color: #585123; 
+        margin: 0 auto;
+    }
+
+    #img1{
+        float: none;
+        display: block;
+        padding: 10px;
+    }
+}
